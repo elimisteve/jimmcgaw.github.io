@@ -10,4 +10,4 @@ If you'd like to connect with me professionally, [find me on LinkedIn](https://w
 
 If you'd like to see what kind of code I'm kicking out these days, you can view my Github page:
 {% include icon-github.html username="jimmcgaw" %} /
-[Jim on Github](https://github.com/jimmcgaw)
+<!-- [Jim on Github](https://github.com/jimmcgaw) -->
