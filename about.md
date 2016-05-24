@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hiya! My name is Jim. I spend my days telling computers what to do. When I'm not doing that, I like to read voraciously and  write occasionally.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+If you'd like to connect with me professionally, [find me on LinkedIn](https://www.linkedin.com/in/jimmcgaw).
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+If you'd like to see what kind of code I'm kicking out these days, you can view my Github page:
+{% include icon-github.html username="jimmcgaw" %} /
+[Jim on Github](https://github.com/jimmcgaw)
