@@ -8,3 +8,10 @@
   vertical-align: middle; }
   .icon > svg path {
     fill: #828282; }
+
+.continue-link {
+  text-align: right;
+  margin: 10px 0px; }
+  .continue-link a {
+    font-size: 16px;
+    color: #337ab7; }

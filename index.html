@@ -17,7 +17,10 @@ layout: default
                     </a>
                     <p class="post-meta">Posted {{ post.date | date: "%b %-d, %Y" }}</p>
                     <div class="content">
-                      {{ post.content | truncatewords: 75}}
+                      {{ post.content | strip_html | truncatewords: 75}}
+                    </div>
+                    <div class="continue-link">
+                      <a href="{{ post.url }}">Continue reading "{{ post.title }}" &rarr; </a>
                     </div>
                 </div>
                 <hr>
