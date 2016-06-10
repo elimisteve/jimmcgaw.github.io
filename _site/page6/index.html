@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2016/04/06/digital-undersharing.html">
+                        <h2 class="post-title">
+                            Digital Undersharing
+                        </h2>
+                    </a>
+                    <p class="post-meta">Apr 6, 2016</p>
+                    <div class="content">
+                      In the early days, when I first started writing on here, I believed that a blog was meant to be something impersonal. I tried to leave the focus on my ideas, to make the content of what I saying center stage, and only to refer to myself to the extent that it was able to help me in conveying my point.I modeled what I was doing after what I saw others doing. Most popular blogs...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2016/04/06/digital-undersharing.html">Continue reading "Digital Undersharing" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2016/04/05/in-defense-of-altruism.html">
                         <h2 class="post-title">
                             In Defense of Altruism
@@ -374,22 +390,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2016/03/28/shamed-by-technology.html">
-                        <h2 class="post-title">
-                            Shamed By Technology
-                        </h2>
-                    </a>
-                    <p class="post-meta">Mar 28, 2016</p>
-                    <div class="content">
-                      Just now, I was attempting to help my mother connect her computer to a wireless network. I'm a fairly technically savvy person; I'm a software engineer, and because I often take an intense interest in subjects that I don't need to, I have a pretty decent understanding of how 802.11 wireless networks function. (Though the low-level hardware in routers and wireless cards is completely alien to me.)Trying to help someone else do something this simple...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2016/03/28/shamed-by-technology.html">Continue reading "Shamed By Technology" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -444,6 +444,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

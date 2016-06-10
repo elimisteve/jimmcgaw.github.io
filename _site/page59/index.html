@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/03/03/lessons-from-a-schizophrenic.html">
+                        <h2 class="post-title">
+                            Lessons From a Schizophrenic
+                        </h2>
+                    </a>
+                    <p class="post-meta">Mar 3, 2010</p>
+                    <div class="content">
+                      Several months ago, a new neighbor moved into the empty unit in our apartment building two doors down from us. He was quirky, and a little more friendly at first than most people I've lived in the same apartment building with. He told me he was was a former UC Berkley football player, which didn't come as a huge surprise due to this foreboding build. But, my first impression of him was that he was...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/03/03/lessons-from-a-schizophrenic.html">Continue reading "Lessons From a Schizophrenic" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/03/02/lane-splitting-in-california.html">
                         <h2 class="post-title">
                             Lane Splitting In California
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/02/21/turning-friends-into-leads.html">
-                        <h2 class="post-title">
-                            Turning Friends into Leads
-                        </h2>
-                    </a>
-                    <p class="post-meta">Feb 21, 2010</p>
-                    <div class="content">
-                      Shortly after graduating from college, I got a rather unexpected call from an acquaintance with whom I went to high school and attended college. (We were both business majors, so we shared a few classes.) After some small talk and kicking around the idea of meeting up for a beer one night, I found myself wondering why he was bothering to call me. We hadn't spoken much in college, and weren't particularly good friends. Why...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/02/21/turning-friends-into-leads.html">Continue reading "Turning Friends into Leads" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2012/04/24/when-business-ain't-great.html">
+                        <h2 class="post-title">
+                            When Business Ain't Great
+                        </h2>
+                    </a>
+                    <p class="post-meta">Apr 24, 2012</p>
+                    <div class="content">
+                      In attending meetup groups and business mixers, you meet a lot of people. I'm fortunate enough to meet the kinds of people who have upped and started their own small businesses, whether they're full-time or just a hobby on the side. I learn a lot from these people. The tone of these conversations is generally extremely positive, but sometimes, you will meet someone who is complaining about how tough it is out there. It might...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2012/04/24/when-business-ain't-great.html">Continue reading "When Business Ain't Great" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2012/03/30/unbottled-water.html">
                         <h2 class="post-title">
                             Unbottled Water
@@ -374,22 +390,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2011/09/20/mindless-negativity.html">
-                        <h2 class="post-title">
-                            Mindless Negativity
-                        </h2>
-                    </a>
-                    <p class="post-meta">Sep 20, 2011</p>
-                    <div class="content">
-                      Yes, it's true. There are tons of people out there who are characterized by vapid, mindless optimism.Yes, they are annoying. They are a turn-off. They don't actually accomplish much.But it's a massive mistake to correlate their optimism with their vacuous mindsets. Negativity also has the capacity to be mindless. And it my experience, it often is.Don't be overly negative in an attempt to appear smart. Usually, it has the opposite effect. And it makes you...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2011/09/20/mindless-negativity.html">Continue reading "Mindless Negativity" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -444,6 +444,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

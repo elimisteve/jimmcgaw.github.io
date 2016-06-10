@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2016/05/10/hearts-and-minds.html">
+                        <h2 class="post-title">
+                            Hearts and Minds
+                        </h2>
+                    </a>
+                    <p class="post-meta">May 10, 2016</p>
+                    <div class="content">
+                      In adopting a worldview, here is the correctly ordered chronology of events:We separate feelings that make us feel good from those that make us feel bad. We desire to chase those feelings that make us feel good and avoid the bad ones.We choose beliefs that integrate with our existing beliefs, which are designed to keep the good feelings going, or avoid causing us bad feelings.We find the evidence to back up the beliefs we want...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2016/05/10/hearts-and-minds.html">Continue reading "Hearts and Minds" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2016/05/09/the-male-feminist.html">
                         <h2 class="post-title">
                             The Male Feminist
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2016/04/29/graffiti-drones.html">
-                        <h2 class="post-title">
-                            Graffiti Drones
-                        </h2>
-                    </a>
-                    <p class="post-meta">Apr 29, 2016</p>
-                    <div class="content">
-                      I'm a big fan of street art. I'm also a technologist. I never put these two together, but some intrepid person realized that drones can carry cans of spray paint and reach surfaces that a single person might not be able to.They don't do a whole lot in this video, other than deface a large billboard ad. It's barely discernible, even in daylight. But I'd guess there's a street artist out there right now who's...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2016/04/29/graffiti-drones.html">Continue reading "Graffiti Drones" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

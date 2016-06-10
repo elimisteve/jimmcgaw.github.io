@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/10/18/organizing-photos.html">
+                        <h2 class="post-title">
+                            Organizing Photos
+                        </h2>
+                    </a>
+                    <p class="post-meta">Oct 18, 2010</p>
+                    <div class="content">
+                      Every so often, a friend of mine creates a photo album on Facebook called "Random stuff" or something similar, the contents of which have no common thread save for the fact that they were taken by the same person carting around a camera with them. (I find these are generally the most entertaining albums to click through.)I don't take a whole lot of digital photos and I don't own a camera, but most of my...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/10/18/organizing-photos.html">Continue reading "Organizing Photos" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/10/17/memorable.html">
                         <h2 class="post-title">
                             Memorable
@@ -373,22 +389,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/10/08/nomenclature.html">
-                        <h2 class="post-title">
-                            Nomenclature
-                        </h2>
-                    </a>
-                    <p class="post-meta">Oct 8, 2010</p>
-                    <div class="content">
-                      Any ideal or action you hope to spread is dependent (at least partially) on the ability of people to call it by its name. Drunk driving was a massive problem back in the 1980s, and several campaigns were put in place to try and teach people about the dangers of drinking and driving. Facts and statistics were used to some avail.Then they decided to call one person in the group the "designated driver". Simple concept:...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/10/08/nomenclature.html">Continue reading "Nomenclature" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -443,6 +443,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

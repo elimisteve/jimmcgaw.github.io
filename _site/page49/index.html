@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/06/11/synchronicity-and-sponsorship.html">
+                        <h2 class="post-title">
+                            Synchronicity and Sponsorship
+                        </h2>
+                    </a>
+                    <p class="post-meta">Jun 11, 2010</p>
+                    <div class="content">
+                      One of the hardest parts of running any business is finding new customers. It's a matter of getting your message to the right people. Timing is important, too. If you're running a pizza parlor, you can probably run ads on local television stations around dinner time, flash a phone number on the screen, and, provided the pizza itself is bearable, you'll probably do pretty well for yourself.There's probably potential for small businesses to do this...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/06/11/synchronicity-and-sponsorship.html">Continue reading "Synchronicity and Sponsorship" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/06/10/where's-the-cough-medicine.html">
                         <h2 class="post-title">
                             Where's the Cough Medicine?
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/06/01/the-theory-of-constraints.html">
-                        <h2 class="post-title">
-                            The Theory of Constraints
-                        </h2>
-                    </a>
-                    <p class="post-meta">Jun 1, 2010</p>
-                    <div class="content">
-                      In the world of business, the theory of constraints basically says that in any system, there is a small handful of bottlenecks that are keeping the system from reaching maximum efficiency. This applies to any business with a complicated manufacturing environment; according to the theory, there's bound to be something that's keep the output from getting higher. If you isolate and fix that problem, then you're golden.This applies at the individual level, but in a...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/06/01/the-theory-of-constraints.html">Continue reading "The Theory of Constraints" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

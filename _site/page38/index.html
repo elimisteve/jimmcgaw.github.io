@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/09/28/mix-and-match.html">
+                        <h2 class="post-title">
+                            Mix and Match
+                        </h2>
+                    </a>
+                    <p class="post-meta">Sep 28, 2010</p>
+                    <div class="content">
+                      While shopping for a new pair of shoes a few weeks ago, my girlfriend asked me a question I didn't expect: "Which of your feet is larger than the other?"I was caught off guard, simply because, as far as I could remember, no one has ever asked me that before. The first batch of questions back were, "Is that possible? Is that common? Do a lot of people have slight differences in the sizes of...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/09/28/mix-and-match.html">Continue reading "Mix and Match" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/09/27/missing-pieces.html">
                         <h2 class="post-title">
                             Missing Pieces
@@ -373,22 +389,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/09/18/in-defense-of-new-media.html">
-                        <h2 class="post-title">
-                            In Defense of New Media
-                        </h2>
-                    </a>
-                    <p class="post-meta">Sep 18, 2010</p>
-                    <div class="content">
-                      The Protestant Reformation happened because of Martin Luther's Ninety-five Theses. The widespread dissemination of this publication ultimately allowed this historical event to take place. And its mass production wouldn't have been possible without the recent invention of moveable type, which allowed lots of copies to be printed at once. And this invention did, unquestionably, change the course of history.Prior to moveable type, the only way to mass produce copies of a book was to have...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/09/18/in-defense-of-new-media.html">Continue reading "In Defense of New Media" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -443,6 +443,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

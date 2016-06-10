@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2009/09/09/the-travelling-entrepenuer.html">
+                        <h2 class="post-title">
+                            The Travelling Entrepenuer
+                        </h2>
+                    </a>
+                    <p class="post-meta">Sep 9, 2009</p>
+                    <div class="content">
+                      I don't travel a whole lot, but when I do, I'm always astonished by how terrible the stores at the airports are. Airports themselves are dens of tedium; they are magnets for boredom and long wait times. Usually, I've got at least four books that I'm reading, so I am able to keep my nose stuck in a book to pass the time. That, and airports are a great place to people-watch. You can pick...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2009/09/09/the-travelling-entrepenuer.html">Continue reading "The Travelling Entrepenuer" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2009/09/07/that-always-ends-up-drivel.html">
                         <h2 class="post-title">
                             That Always Ends Up Drivel
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2009/05/31/a-fair-and-balanced-look-at-absolutely-nothing.html">
-                        <h2 class="post-title">
-                            A Fair and Balanced Look at Absolutely Nothing
-                        </h2>
-                    </a>
-                    <p class="post-meta">May 31, 2009</p>
-                    <div class="content">
-                      Tell me if this has ever happened to you:You come to a crosswalk at a major intersection where a bunch of people are standing there, staring at the "Don't Walk" orange hand across the street. There's a similar group of people across the street, waiting for the light to change so they can cross to where you are. All of these people seem to be in a daze. You approach the curb and look both...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2009/05/31/a-fair-and-balanced-look-at-absolutely-nothing.html">Continue reading "A Fair and Balanced Look at Absolutely Nothing" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

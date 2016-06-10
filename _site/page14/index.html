@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2011/05/25/well-it's-a-funny-story....html">
+                        <h2 class="post-title">
+                            Well, It's a Funny Story...
+                        </h2>
+                    </a>
+                    <p class="post-meta">May 25, 2011</p>
+                    <div class="content">
+                      I was walking through an outdoor shopping mall earlier today when I was stopped by a guy with a rubber bracelet. "Are you interested?" he asked.I looked down at the item in his hand. "What is it?" I asked, since I was curious.Turns out, the answer to that question took about 5 minutes for him to get out, and it included a demonstration involving my participation in order for me to "get it".The product itself...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2011/05/25/well-it's-a-funny-story....html">Continue reading "Well, It's a Funny Story..." &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2011/05/24/provisional-patents.html">
                         <h2 class="post-title">
                             Provisional Patents
@@ -373,22 +389,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2011/05/15/the-non-obvious.html">
-                        <h2 class="post-title">
-                            The Non-Obvious
-                        </h2>
-                    </a>
-                    <p class="post-meta">May 15, 2011</p>
-                    <div class="content">
-                      One of the factors considered in whether or not an invention or an idea is patentable is the concept of non-obviousness. That is, could someone in your profession have conceived of the same idea or been able to solve the problem without a lot of thought?I'm not a lawyer, and I'm not terribly interested in dwelling on legal matters, but I like the implications that the term "non-obvious" belies. I think that good ideas are...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2011/05/15/the-non-obvious.html">Continue reading "The Non-Obvious" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -443,6 +443,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

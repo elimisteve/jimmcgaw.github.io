@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/01/13/it's-the-end-of-the-world-as-we-know-it.html">
+                        <h2 class="post-title">
+                            It's the End of the World As We Know It
+                        </h2>
+                    </a>
+                    <p class="post-meta">Jan 13, 2010</p>
+                    <div class="content">
+                      People often try and conclude debates (particularly those online) by making grand statements about how the world is going to come to an end. For example:"If we lose our newspapers, it's going to be undoing of our civilization and we're all going to be sorry."This is an appealing way to try and get people's attention, because we've all been taught that the best way to get people to listen to you (and agree with you)...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/01/13/it's-the-end-of-the-world-as-we-know-it.html">Continue reading "It's the End of the World As We Know It" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/01/07/please-sell-me-a-lotus-effect-spoon.html">
                         <h2 class="post-title">
                             Please Sell Me A Lotus-Effect® Spoon
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2009/12/28/merrell-dress-shoes.html">
-                        <h2 class="post-title">
-                            Merrell Dress Shoes
-                        </h2>
-                    </a>
-                    <p class="post-meta">Dec 28, 2009</p>
-                    <div class="content">
-                      My girlfriend's mom had foot surgery a couple of years ago. Her doctor told her, "You should wear nothing but Merrell brand shoes whenever you can. There's nothing better you can put on your feet." So she has four pairs of Merrell shoes that she wears most of the time. She told me about them, and now, I own a pair of them. They're very comfortable for all of the hiking and the walking I...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2009/12/28/merrell-dress-shoes.html">Continue reading "Merrell Dress Shoes" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

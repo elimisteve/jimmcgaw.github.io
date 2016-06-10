@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2011/03/07/permission-slip.html">
+                        <h2 class="post-title">
+                            Permission Slip
+                        </h2>
+                    </a>
+                    <p class="post-meta">Mar 7, 2011</p>
+                    <div class="content">
+                      You remember the drill: a group of students from your school are going to leave school and visit someplace, and you've got to take home a permission slip for your parents to sign. The school couldn't just pull you out of your regular routine and take you someplace. They had to get the okay from your folks. At other times, if you wanted to do something, you had to raise your hand and ask the...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2011/03/07/permission-slip.html">Continue reading "Permission Slip" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2011/03/06/hot-for-teacher.html">
                         <h2 class="post-title">
                             Hot for Teacher
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2011/02/24/random.html">
-                        <h2 class="post-title">
-                            Random
-                        </h2>
-                    </a>
-                    <p class="post-meta">Feb 24, 2011</p>
-                    <div class="content">
-                      Let's say you have a large set of truly random, widely distributed numbers. What portion of them, if you counted it up, would start with the digit 1? How about 2? 3? Most people intuitively say it's 1 in 9, an equal share of probability, for each one. In reality, this isn't what ends up happening. In a large random sampling of numbers, each has roughly a 30% chance of starting with 1. (Or, another...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2011/02/24/random.html">Continue reading "Random" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

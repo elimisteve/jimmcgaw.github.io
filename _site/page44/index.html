@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/07/31/thank-the-infamous.html">
+                        <h2 class="post-title">
+                            Thank the Infamous
+                        </h2>
+                    </a>
+                    <p class="post-meta">Jul 31, 2010</p>
+                    <div class="content">
+                      Fame occurs when a person has more inbound attention then they are able to respond to. It's when a person can no longer answer every single email they get, just because there aren't enough hours in their day. Or when a person goes out in public and there are strangers asking for interactions with you with a lack of an interpersonal relationship.We all have a tendency to seek out the attention and validation of famous...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/07/31/thank-the-infamous.html">Continue reading "Thank the Infamous" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/07/30/it's-safe-to-assume....html">
                         <h2 class="post-title">
                             "It's Safe To Assume..."
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/07/21/breeding-what-works.html">
-                        <h2 class="post-title">
-                            Breeding What Works
-                        </h2>
-                    </a>
-                    <p class="post-meta">Jul 21, 2010</p>
-                    <div class="content">
-                      Paul Orfalea started Kinko's in Southern California back in 1970, and quickly expanded his simple copy-shop operation into several stores. His management style was rather unique. By his own admission, he felt under-qualified to tell the people running each of his stores what to do, so he left the stores to their own devices, without issuing a lot of top-down directives.Instead, he traveled around between the stores and learned from each store manager. He listened...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/07/21/breeding-what-works.html">Continue reading "Breeding What Works" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

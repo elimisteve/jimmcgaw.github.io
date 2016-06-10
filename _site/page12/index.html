@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2011/07/01/there-are-no-little-people.html">
+                        <h2 class="post-title">
+                            There Are NO "Little People"
+                        </h2>
+                    </a>
+                    <p class="post-meta">Jul 1, 2011</p>
+                    <div class="content">
+                      My girlfriend's mom has a trick she uses when sizing up candidates when they come into the office for job interviews: after they leave, ask the receptionist for their thoughts. How did they treat them when they came in? How did they act? Were they polite?Everyone's nice to the hiring manager or the head of the department in an interview, but it's revealing to see how they treat a "little person" who doesn't hold any...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2011/07/01/there-are-no-little-people.html">Continue reading "There Are NO "Little People"" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2011/06/26/hi-and-hiatus.html">
                         <h2 class="post-title">
                             Hi and Hiatus
@@ -373,22 +389,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2011/06/04/you-have-an-audience.html">
-                        <h2 class="post-title">
-                            You Have An Audience
-                        </h2>
-                    </a>
-                    <p class="post-meta">Jun 4, 2011</p>
-                    <div class="content">
-                      There's a group of people out there who are interested in what you have to say.It's no secret that like-minded people come together and hang out with each other. And these clumps of people, even if they are distributed across multiple cities or even countries, are determined to find each other and connect.Somewhere out there, there is a group of people who want to hear what you say. There's a clump waiting for your message....
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2011/06/04/you-have-an-audience.html">Continue reading "You Have An Audience" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -443,6 +443,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

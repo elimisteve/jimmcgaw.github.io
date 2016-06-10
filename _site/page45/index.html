@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/07/21/breeding-what-works.html">
+                        <h2 class="post-title">
+                            Breeding What Works
+                        </h2>
+                    </a>
+                    <p class="post-meta">Jul 21, 2010</p>
+                    <div class="content">
+                      Paul Orfalea started Kinko's in Southern California back in 1970, and quickly expanded his simple copy-shop operation into several stores. His management style was rather unique. By his own admission, he felt under-qualified to tell the people running each of his stores what to do, so he left the stores to their own devices, without issuing a lot of top-down directives.Instead, he traveled around between the stores and learned from each store manager. He listened...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/07/21/breeding-what-works.html">Continue reading "Breeding What Works" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/07/20/knowledge-is....html">
                         <h2 class="post-title">
                             Knowledge Is...
@@ -373,22 +389,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/07/11/what-if-you're-wrong.html">
-                        <h2 class="post-title">
-                            What If You're Wrong?
-                        </h2>
-                    </a>
-                    <p class="post-meta">Jul 11, 2010</p>
-                    <div class="content">
-                      We generally interpret that question as an assault on our egos. If someone asks us to consider even the possibility that we're wrong, either about an opinion or a proposed course of action, we get very defensive. It's very difficult to tell or suggest to another person that they're wrong. Chances are, you won't change their mind. If anything, you may end up having the opposite effect: the more defensive a person is acting, the...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/07/11/what-if-you're-wrong.html">Continue reading "What If You're Wrong?" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -443,6 +443,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

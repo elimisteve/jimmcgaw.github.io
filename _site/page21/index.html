@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2011/03/17/what-you-heard.html">
+                        <h2 class="post-title">
+                            What You Heard
+                        </h2>
+                    </a>
+                    <p class="post-meta">Mar 17, 2011</p>
+                    <div class="content">
+                      We don't always remember everything exactly as we heard it.News articles, Facebook statuses, and Tweets all flow in, as an endless digital river of content. There's value in a lot of it, but most things don't stick over the long term. A friends posts that he just saw a really terrible movie that he hated. "Don't see [Film X]." I read it, it sinks and disappears into the gray matter between my ears.Six months later,...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2011/03/17/what-you-heard.html">Continue reading "What You Heard" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2011/03/16/awe-and-wonder.html">
                         <h2 class="post-title">
                             Awe and Wonder
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2011/03/07/permission-slip.html">
-                        <h2 class="post-title">
-                            Permission Slip
-                        </h2>
-                    </a>
-                    <p class="post-meta">Mar 7, 2011</p>
-                    <div class="content">
-                      You remember the drill: a group of students from your school are going to leave school and visit someplace, and you've got to take home a permission slip for your parents to sign. The school couldn't just pull you out of your regular routine and take you someplace. They had to get the okay from your folks. At other times, if you wanted to do something, you had to raise your hand and ask the...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2011/03/07/permission-slip.html">Continue reading "Permission Slip" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>
