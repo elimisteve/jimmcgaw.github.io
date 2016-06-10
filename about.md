@@ -11,3 +11,5 @@ If you'd like to connect with me professionally, [find me on LinkedIn](https://w
 If you'd like to see what kind of code I'm kicking out these days, view my Github:
 {% include icon-github.html username="jimmcgaw" %}
 <!-- [Jim on Github](https://github.com/jimmcgaw) -->
+
+If you'd like to know more about my work experience, <a href="http://www.jimmcgaw.com/" target="_blank">view my résumé</a>.
