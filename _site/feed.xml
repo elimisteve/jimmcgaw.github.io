@@ -6,9 +6,69 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jun 2016 14:22:55 -0700</pubDate>
-    <lastBuildDate>Fri, 10 Jun 2016 14:22:55 -0700</lastBuildDate>
+    <pubDate>Fri, 10 Jun 2016 16:35:37 -0700</pubDate>
+    <lastBuildDate>Fri, 10 Jun 2016 16:35:37 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Heisenberg</title>
+        <description>In order to have some geeky fun (and largely to test out LaTeX support for my posts), I&#39;m going to talk a
+little bit about physics today.
+&lt;br&gt;&lt;br&gt;
+I&#39;ve most often heard people define Heisenberg&#39;s uncertainty principle as the notion that you cannot observe
+something without affecting it. By looking, you disrupt, so to speak. This is actually called the
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Observer_effect_(physics)&quot; target=&quot;_blank&quot;&gt;observer effect&lt;/a&gt;. While he
+was still alive, it drove Heisenberg crazy that people got these confused.
+&lt;br&gt;&lt;br&gt;
+Here is Heisenberg&#39;s uncertainty relation expressed mathematically:
+
+$$ \sigma_x \sigma_p \ge \frac{\hbar}{2} $$
+
+Imagine that you have a particle, like an electron, traveling along a straight line (e.g. one dimension). In this
+equation, $ x $ represents the position of the electron and $ p $ represents the electron&#39;s momentum.
+&lt;br&gt;&lt;br&gt;
+$ \sigma $ represents the standard deviation, as it applies to the standard bell curve in statistics. The higher the
+standard deviation, the more &quot;spread out&quot; the bell curve is along the bottom axis. A very small standard deviation
+would be represented by an extremely skinny bell curve that spikes sharply in the middle, with very little
+spread.
+&lt;br&gt;&lt;br&gt;
+Think of it this way: a shotgun has a large standard deviation (large spread) and a pistol has a small
+one (small spread).
+&lt;br&gt;&lt;br&gt;
+$ \hbar $ is simply a constant, known as Planck&#39;s constant (strictly speaking, it&#39;s Plank&#39;s &lt;em&gt;reduced&lt;/em&gt; constant, but
+never mind that small detail.) It&#39;s a very small value. What the equation tells us is that there is always some uncertainty
+in the measurement of both the electron&#39;s position and its momentum. This is why we &lt;em&gt;have&lt;/em&gt; a $ \sigma $ value for
+each: we can&#39;t measure either with 100% accuracy, only probabilistically.
+&lt;br&gt;&lt;br&gt;
+More importantly, the product of $ \sigma_x $ and $ \sigma_p $ must be greater than (or equal to) a constant
+value that is larger than zero. Simply put: if you reduce the $ \sigma $ of one of them, the other must increase.
+The more certain you are of $ x $, the less certain you can be about $ p $, and vice versa.
+&lt;br&gt;&lt;br&gt;
+So what does it actually mean? Let&#39;s consider the simple example of a hydrogen atom, in which we have a nucleus composed
+of a single proton that has a single electron lurking around in a cloud in its lowest orbital. The two particles have
+equivalent, but opposite, charges.
+&lt;br&gt;&lt;br&gt;
+Anyone who plays with magnets understands that postive and negative charges attract one another. So why doesn&#39;t the
+electron spiral in and stick to the proton?
+&lt;br&gt;&lt;br&gt;
+Because of Heisenberg&#39;s uncertainty relation! If the electron were to succumb to its attraction and sit alongside the
+proton, then we would know its position definitively. There would be almost no uncertainly about where it existed. If
+this were to happen, the self-correcting laws of nature would increase the uncertainty in the particle&#39;s momentum,
+which would give it a massive spike of kinetic energy and send it reeling away from proton.
+&lt;br&gt;&lt;br&gt;
+Naturally, this tells us that we understand, quantitatively, the mechanisn by which all matter in the
+universe doesn&#39;t collapse on itself, but it doesn&#39;t answer the real question of why things are that way.
+We know the electron doesn&#39;t stick the proton, but why? Saying &quot;because
+of Heisenberg&#39;s uncertainly principle&quot; is just a way of expressing that observable reality matches Heisenberg&#39;s
+equation. It doesn&#39;t tell us &lt;em&gt;why&lt;/em&gt; the laws of nature are the way they are. Don&#39;t ask me that, because
+I have no idea why nature is the way it is.
+</description>
+        <pubDate>Fri, 10 Jun 2016 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/2016/06/10/heisenberg.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/06/10/heisenberg.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Disconnected</title>
@@ -105,17 +165,6 @@
         <pubDate>Wed, 11 May 2016 00:00:00 -0700</pubDate>
         <link>http://yourdomain.com/2016/05/11/crossing-the-chasm.html</link>
         <guid isPermaLink="true">http://yourdomain.com/2016/05/11/crossing-the-chasm.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hearts and Minds</title>
-        <description>In adopting a worldview, here is the correctly ordered chronology of events:&lt;br /&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;We separate feelings that make us feel good from those that make us feel bad. We desire to chase those feelings that make us feel good and avoid the bad ones.&lt;/li&gt;&lt;li&gt;We choose beliefs that integrate with our existing beliefs, which are designed to keep the good feelings going, or avoid causing us bad feelings.&lt;/li&gt;&lt;li&gt;We find the evidence to back up the beliefs we want to have, in order to justify the those beliefs that make us feel good.&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;We live in a culture that values rationality and a scientific mindset over living at the whims of your own emotions and desires. After we adopt a worldview, we doublethink. The pernicious lie that we tell ourselves is that the steps I listed above occur in reverse. We deceive ourselves into thinking that we first found the evidence, then a belief system proceeded from this evidence, and then our feelings came from this belief system.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;This becomes a problem when people interact with one another. People present &quot;evidence&quot; to me all the time about their worldview, convinced that in the face of this evidence, I&#39;ll come to believe what they believe. They believe that another rational person like myself will inevitably converge on the same conclusion that they have. The evidence will be input into my brain, the crank will turn, and out will pop the same belief. If this doesn&#39;t happen, then I can merely be dismissed as irrational.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;It&#39;s in this way that we each try to coerce each other into believing what we ourselves believe. This is also the cause of frustration when others argue with our viewpoints. It so simple, we think to ourselves. The evidence is clear, the data points outline an arrow pointing to a singular conclusion, so why can&#39;t the other person see this?&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Intellectualizing defeats itself because it leads us to believe that we can actually intellectualize. As a human being, I&#39;m little more than the sum of my desires. My beliefs about the world are a persona that represents these desires expressed in language.&lt;br /&gt;&lt;br /&gt;So it is all with people. We spend years of feeling, thinking, and aggregating ideas about the world in order to formulate who we are and what we believe. Somehow, we trick ourselves into thinking that in the short space of a brief conversation with another person, we can use language to not only adequately represent who are, but to convince the other person that they should be more like us.&lt;/div&gt;
-</description>
-        <pubDate>Tue, 10 May 2016 00:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/2016/05/10/hearts-and-minds.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2016/05/10/hearts-and-minds.html</guid>
         
         
       </item>

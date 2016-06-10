@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/11/17/broken-windows.html">
+                        <h2 class="post-title">
+                            Broken Windows
+                        </h2>
+                    </a>
+                    <p class="post-meta">Nov 17, 2010</p>
+                    <div class="content">
+                      Thanks to Malcolm Gladwell, most people have heard of the broken windows theory, or the notion that a small, seemingly insignificant sign of decay, disrepair, or apathy can end up having a big impact. A single broken window, if left unfixed, gives people the impression that the neighborhood is in decline, and this changes people's behavior. It can theoretically lead to more "broken windows".But it's not the broken window that does it. It's the perception...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/11/17/broken-windows.html">Continue reading "Broken Windows" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/11/16/zerotrash.html">
                         <h2 class="post-title">
                             ZeroTrash
@@ -372,23 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/11/07/literary-goal.html">
-                        <h2 class="post-title">
-                            Literary Goal
-                        </h2>
-                    </a>
-                    <p class="post-meta">Nov 7, 2010</p>
-                    <div class="content">
-                      In my mind (in other words, this is arbitrary), books fall into three different categories:1. Storytelling - all fiction falls under this umbrella, for example.2. Educational - meant to instruct or teach. Textbooks. 3. Ideas - almost all nonfiction is written with this as its currency.In my very limited experience as a reader, the most insightful and interesting books are the ones that manage to achieve a blend of all three of these.
-
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/11/07/literary-goal.html">Continue reading "Literary Goal" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -443,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

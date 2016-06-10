@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2011/01/16/magic-and-mud.html">
+                        <h2 class="post-title">
+                            Magic and Mud
+                        </h2>
+                    </a>
+                    <p class="post-meta">Jan 16, 2011</p>
+                    <div class="content">
+                      Professional magicians tend to agree on this point: Houdini was not the greatest magician who ever lived. If you base your judgment on technical proficiency, he didn't even come close.And yet, if you ask almost anyone to name the greatest magician of all time, they'll probably say Houdini.This is because Houdini was bold enough to use himself as a large part of his own act. He was one of the first magicians to play up...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2011/01/16/magic-and-mud.html">Continue reading "Magic and Mud" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2011/01/15/picking-a-muse.html">
                         <h2 class="post-title">
                             Picking a Muse
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2011/01/06/method-to-the-madness.html">
-                        <h2 class="post-title">
-                            Method to the Madness
-                        </h2>
-                    </a>
-                    <p class="post-meta">Jan 6, 2011</p>
-                    <div class="content">
-                      Do you have a soap problem in your house? Is your bathroom missing hand soap, or is anti-bacterial cleaner missing from your kitchen?Chances are pretty good, if you live in the United States, that it isn't. Advertisers spent the last century working to make sure that most Americans have their soap and cleaning supply problem taken care of. Fortunately for hygiene and health, they've largely succeeded...almost no one is in search of a new cleaning...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2011/01/06/method-to-the-madness.html">Continue reading "Method to the Madness" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

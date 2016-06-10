@@ -229,6 +229,23 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/10/28/the-me-me-newspaper.html">
+                        <h2 class="post-title">
+                            The "Me Me" Newspaper
+                        </h2>
+                    </a>
+                    <p class="post-meta">Oct 28, 2010</p>
+                    <div class="content">
+                      In my experience, most companies that use blogs to promote themselves are getting it wrong. The reason is simple: try to imagine reading a newspaper where all the articles are written about what's happening at that newspaper's headquarters. Would anyone read that?
+
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/10/28/the-me-me-newspaper.html">Continue reading "The "Me Me" Newspaper" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/10/27/criticism-in-the-cracks.html">
                         <h2 class="post-title">
                             Criticism in the Cracks
@@ -372,22 +389,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/10/18/organizing-photos.html">
-                        <h2 class="post-title">
-                            Organizing Photos
-                        </h2>
-                    </a>
-                    <p class="post-meta">Oct 18, 2010</p>
-                    <div class="content">
-                      Every so often, a friend of mine creates a photo album on Facebook called "Random stuff" or something similar, the contents of which have no common thread save for the fact that they were taken by the same person carting around a camera with them. (I find these are generally the most entertaining albums to click through.)I don't take a whole lot of digital photos and I don't own a camera, but most of my...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/10/18/organizing-photos.html">Continue reading "Organizing Photos" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +443,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

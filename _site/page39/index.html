@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/09/18/in-defense-of-new-media.html">
+                        <h2 class="post-title">
+                            In Defense of New Media
+                        </h2>
+                    </a>
+                    <p class="post-meta">Sep 18, 2010</p>
+                    <div class="content">
+                      The Protestant Reformation happened because of Martin Luther's Ninety-five Theses. The widespread dissemination of this publication ultimately allowed this historical event to take place. And its mass production wouldn't have been possible without the recent invention of moveable type, which allowed lots of copies to be printed at once. And this invention did, unquestionably, change the course of history.Prior to moveable type, the only way to mass produce copies of a book was to have...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/09/18/in-defense-of-new-media.html">Continue reading "In Defense of New Media" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/09/17/starting-without-a-goal.html">
                         <h2 class="post-title">
                             Starting Without a Goal
@@ -373,22 +389,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/09/09/car-inspector.html">
-                        <h2 class="post-title">
-                            Car Inspector
-                        </h2>
-                    </a>
-                    <p class="post-meta">Sep 9, 2010</p>
-                    <div class="content">
-                      I took my car into a mechanic recently and, no surprise, turns out there's a lot that's wrong with it, and a lot of things that need fixing. Nothing urgent, they tell me, but if anything ever goes wrong, the insinuation is that I'll only have myself to blame...The problem with these kinds of situations is that the person who's giving us advice is also the person that has something to sell us. So when...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/09/09/car-inspector.html">Continue reading "Car Inspector" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -443,6 +443,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

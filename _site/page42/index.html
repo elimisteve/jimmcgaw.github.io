@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/08/20/spider-cup.html">
+                        <h2 class="post-title">
+                            Spider Cup!
+                        </h2>
+                    </a>
+                    <p class="post-meta">Aug 20, 2010</p>
+                    <div class="content">
+                      (Does whatever a spider cup does?)This seems like a somewhat common problem: woman sees spider in her house and, since she cannot bring herself to kill something "icky", traps it under a cup. That leaves her with a small dilemma: the spider is still alive, and she either has to let it starve or asphyxiate, or she can cross her fingers, pull up the cup really quickly and whap the space under it with a...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/08/20/spider-cup.html">Continue reading "Spider Cup!" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/08/19/watching-the-exceptions.html">
                         <h2 class="post-title">
                             Watching the Exceptions
@@ -373,22 +389,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/08/10/we-are-the-champions.html">
-                        <h2 class="post-title">
-                            We Are The Champions
-                        </h2>
-                    </a>
-                    <p class="post-meta">Aug 10, 2010</p>
-                    <div class="content">
-                      In the film What About Bob, one of the characters is a psychiatrist (Richard Dreyfuss) who takes on a new patient (Bill Murray) who ends up being quite a handful. The doctor is the author of a (fictional) book called Baby Steps, which he gives to all of his patients. It encourages a mindset on the part of the patient to take things in life in small chunks, to avoid being overwhelmed by reality.On the...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/08/10/we-are-the-champions.html">Continue reading "We Are The Champions" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -443,6 +443,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

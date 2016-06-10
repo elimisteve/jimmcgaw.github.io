@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/02/21/turning-friends-into-leads.html">
+                        <h2 class="post-title">
+                            Turning Friends into Leads
+                        </h2>
+                    </a>
+                    <p class="post-meta">Feb 21, 2010</p>
+                    <div class="content">
+                      Shortly after graduating from college, I got a rather unexpected call from an acquaintance with whom I went to high school and attended college. (We were both business majors, so we shared a few classes.) After some small talk and kicking around the idea of meeting up for a beer one night, I found myself wondering why he was bothering to call me. We hadn't spoken much in college, and weren't particularly good friends. Why...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/02/21/turning-friends-into-leads.html">Continue reading "Turning Friends into Leads" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/02/20/bringing-jello-to-market.html">
                         <h2 class="post-title">
                             Bringing Jello To Market
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/02/11/order-out-of-chaos.html">
-                        <h2 class="post-title">
-                            Order Out of Chaos
-                        </h2>
-                    </a>
-                    <p class="post-meta">Feb 11, 2010</p>
-                    <div class="content">
-                      The Internet is a mess. There's value in its content, but in order to get at it, you need to wade through a ton of junk first. Successful web companies help users make order out of chaos. Google did it by making sites with more inbound links rank higher in search results. If you link to a site on your web page, it's as if you're casting a vote for that site to rank higher....
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/02/11/order-out-of-chaos.html">Continue reading "Order Out of Chaos" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

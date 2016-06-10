@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2011/04/16/entering.html">
+                        <h2 class="post-title">
+                            Entering
+                        </h2>
+                    </a>
+                    <p class="post-meta">Apr 16, 2011</p>
+                    <div class="content">
+                      There's one reason that I know my car, apartment, and underworldly possessions are most like safe from theft: they're all very small targets.My car doesn't have a high bluebook value, so it's unlikely anyone will risk driving off with it in the middle of the night. That's protecting it far more than the car alarm is. And I know that my deadbolt is pretty much worthless. A dedicated cat burglar could bypass it without breaking...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2011/04/16/entering.html">Continue reading "Entering" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2011/04/15/mine-is-yours.html">
                         <h2 class="post-title">
                             Mine is Yours
@@ -373,22 +389,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2011/04/06/direct-mail.html">
-                        <h2 class="post-title">
-                            Direct Mail
-                        </h2>
-                    </a>
-                    <p class="post-meta">Apr 6, 2011</p>
-                    <div class="content">
-                      I gave a small donation to my local food bank about six months ago, in response to reports that they were falling on hard times and were possibly going to start cutting their programs.Shortly thereafter, I got a solicitation in the mail from them, asking for more money. I wrote a note to them telling them while I was extremely grateful for their service to our community, and while I was happy to help when...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2011/04/06/direct-mail.html">Continue reading "Direct Mail" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -443,6 +443,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

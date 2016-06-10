@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/04/02/silly-that.html">
+                        <h2 class="post-title">
+                            Silly, That
+                        </h2>
+                    </a>
+                    <p class="post-meta">Apr 2, 2010</p>
+                    <div class="content">
+                      I'm not sure what was going through the heads of the first people who decided to take the green beans from the coffee plant, burn them, drip hot water through them, and then drink the resulting liquid.That's not exactly how it happened, but you get the idea. Getting from green beans to the final coffee beverage that all of us drink today is not logical at all. I imagine that the process of getting the...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/04/02/silly-that.html">Continue reading "Silly, That" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/04/01/parental-guidance-suggested.html">
                         <h2 class="post-title">
                             Parental Guidance Suggested
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/03/23/why-i-hated-english-class.html">
-                        <h2 class="post-title">
-                            Why I Hated English Class
-                        </h2>
-                    </a>
-                    <p class="post-meta">Mar 23, 2010</p>
-                    <div class="content">
-                      How do you find the length of the hypotenuse of a right triangle? If you have any recollection of this being hammered into your head year after year during grade school, you know that you square each of the other two sides, add the numbers together, and then take the square root. a2 + b2 = c2This is a problem that has a convergent solution. You have a classroom full of 30 kids, and if...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/03/23/why-i-hated-english-class.html">Continue reading "Why I Hated English Class" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

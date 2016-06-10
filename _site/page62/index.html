@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/02/02/want-to-help-the-world-get-a-business-degree..html">
+                        <h2 class="post-title">
+                            Want to Help The World? Get a Business Degree.
+                        </h2>
+                    </a>
+                    <p class="post-meta">Feb 2, 2010</p>
+                    <div class="content">
+                      Nope, I'm not kidding. If you're a freshman or sophomore in college, your major is still undeclared, and you're interested in a field that will help you make the world a better place, consider getting a business degree.I've been there before. You take all kinds of random classes in an effort to find a noodle that sticks to your brain. You try sociology, psychology, social problems, social work, etc, all in the hopes that one...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/02/02/want-to-help-the-world-get-a-business-degree..html">Continue reading "Want to Help The World? Get a Business Degree." &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/02/01/there's-more-than-one-reason-to-shoot-the-messenger.html">
                         <h2 class="post-title">
                             There's More Than One Reason To Shoot The Messenger
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/01/13/it's-the-end-of-the-world-as-we-know-it.html">
-                        <h2 class="post-title">
-                            It's the End of the World As We Know It
-                        </h2>
-                    </a>
-                    <p class="post-meta">Jan 13, 2010</p>
-                    <div class="content">
-                      People often try and conclude debates (particularly those online) by making grand statements about how the world is going to come to an end. For example:"If we lose our newspapers, it's going to be undoing of our civilization and we're all going to be sorry."This is an appealing way to try and get people's attention, because we've all been taught that the best way to get people to listen to you (and agree with you)...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/01/13/it's-the-end-of-the-world-as-we-know-it.html">Continue reading "It's the End of the World As We Know It" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

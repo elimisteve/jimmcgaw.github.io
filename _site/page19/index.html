@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2011/04/06/direct-mail.html">
+                        <h2 class="post-title">
+                            Direct Mail
+                        </h2>
+                    </a>
+                    <p class="post-meta">Apr 6, 2011</p>
+                    <div class="content">
+                      I gave a small donation to my local food bank about six months ago, in response to reports that they were falling on hard times and were possibly going to start cutting their programs.Shortly thereafter, I got a solicitation in the mail from them, asking for more money. I wrote a note to them telling them while I was extremely grateful for their service to our community, and while I was happy to help when...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2011/04/06/direct-mail.html">Continue reading "Direct Mail" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2011/04/05/.html">
                         <h2 class="post-title">
                             
@@ -374,22 +390,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2011/03/27/meeting-and-defying.html">
-                        <h2 class="post-title">
-                            Meeting and Defying
-                        </h2>
-                    </a>
-                    <p class="post-meta">Mar 27, 2011</p>
-                    <div class="content">
-                      Director David Fincher gave a talk a couple of years ago that I attended, in which he shared a story about the release of his film Se7en. As a promotional tactic, the production company did a screening of the film shortly before its release. It wasn't widely publicized, but a poster was placed outside to drawn in people to watch the film. According to Fincher, the poster said something like this:"Do you want to see...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2011/03/27/meeting-and-defying.html">Continue reading "Meeting and Defying" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -444,6 +444,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/07/11/what-if-you're-wrong.html">
+                        <h2 class="post-title">
+                            What If You're Wrong?
+                        </h2>
+                    </a>
+                    <p class="post-meta">Jul 11, 2010</p>
+                    <div class="content">
+                      We generally interpret that question as an assault on our egos. If someone asks us to consider even the possibility that we're wrong, either about an opinion or a proposed course of action, we get very defensive. It's very difficult to tell or suggest to another person that they're wrong. Chances are, you won't change their mind. If anything, you may end up having the opposite effect: the more defensive a person is acting, the...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/07/11/what-if-you're-wrong.html">Continue reading "What If You're Wrong?" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/07/10/in-love-and-war.html">
                         <h2 class="post-title">
                             In Love and War
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/07/01/gift-ideas-(for-you).html">
-                        <h2 class="post-title">
-                            Gift Ideas (For You)
-                        </h2>
-                    </a>
-                    <p class="post-meta">Jul 1, 2010</p>
-                    <div class="content">
-                      I don't know about you, but whenever someone asks me what I want for Christmas or my birthday, I rarely have an answer for them. There aren't a whole lot of things that I want that I don't just go out and buy for myself as soon as I want them (usually, it's books) and I know better than to ask people for money.Here are some random gift ideas you might ask for, the next...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/07/01/gift-ideas-(for-you).html">Continue reading "Gift Ideas (For You)" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

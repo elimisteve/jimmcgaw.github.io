@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2011/01/06/method-to-the-madness.html">
+                        <h2 class="post-title">
+                            Method to the Madness
+                        </h2>
+                    </a>
+                    <p class="post-meta">Jan 6, 2011</p>
+                    <div class="content">
+                      Do you have a soap problem in your house? Is your bathroom missing hand soap, or is anti-bacterial cleaner missing from your kitchen?Chances are pretty good, if you live in the United States, that it isn't. Advertisers spent the last century working to make sure that most Americans have their soap and cleaning supply problem taken care of. Fortunately for hygiene and health, they've largely succeeded...almost no one is in search of a new cleaning...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2011/01/06/method-to-the-madness.html">Continue reading "Method to the Madness" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2011/01/05/self-deprecation-is-overrated.html">
                         <h2 class="post-title">
                             Self-Deprecation is Overrated
@@ -374,22 +390,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/12/27/waiting-in-line.html">
-                        <h2 class="post-title">
-                            Waiting in Line
-                        </h2>
-                    </a>
-                    <p class="post-meta">Dec 27, 2010</p>
-                    <div class="content">
-                      I went into the Apple store and bought something for the first time ever the other day. It was a small purchase, nothing more than a keyboard. In my dealings with Apple as a consumer, I almost always come away with something good to say. (As a developer, it's a slightly different story.)When I told the employee helping me I wanted to check out, he pulled the cash register out of his pocket. It was...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/12/27/waiting-in-line.html">Continue reading "Waiting in Line" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -444,6 +444,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

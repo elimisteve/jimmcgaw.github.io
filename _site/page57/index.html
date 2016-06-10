@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/03/23/why-i-hated-english-class.html">
+                        <h2 class="post-title">
+                            Why I Hated English Class
+                        </h2>
+                    </a>
+                    <p class="post-meta">Mar 23, 2010</p>
+                    <div class="content">
+                      How do you find the length of the hypotenuse of a right triangle? If you have any recollection of this being hammered into your head year after year during grade school, you know that you square each of the other two sides, add the numbers together, and then take the square root. a2 + b2 = c2This is a problem that has a convergent solution. You have a classroom full of 30 kids, and if...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/03/23/why-i-hated-english-class.html">Continue reading "Why I Hated English Class" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/03/22/discovered-by-whom.html">
                         <h2 class="post-title">
                             Discovered By Whom?
@@ -373,22 +389,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/03/13/ask-the-right-question.html">
-                        <h2 class="post-title">
-                            Ask the Right Question
-                        </h2>
-                    </a>
-                    <p class="post-meta">Mar 13, 2010</p>
-                    <div class="content">
-                      During my first year of college, Napster broke onto the scene. Suddenly, every single student with a computer (which, I think, was everyone except me) was able to get their hands on just about any song or album just by typing it into a program and downloading it.Soon thereafter, Lars Ulrich, the drummer in Metallica, spoke up, claiming that Napster was a threat to the control that musician's should be able to retain over their...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/03/13/ask-the-right-question.html">Continue reading "Ask the Right Question" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -443,6 +443,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>

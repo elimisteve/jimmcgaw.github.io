@@ -229,6 +229,22 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               
                 <div class="post-preview">
+                    <a href="/2010/05/22/make-yourself-uncomfortable.html">
+                        <h2 class="post-title">
+                            Make Yourself Uncomfortable
+                        </h2>
+                    </a>
+                    <p class="post-meta">May 22, 2010</p>
+                    <div class="content">
+                      Yesterday was my birthday. (Thanks to all of you Facebook peeps that posted on my wall.) It seems like people my age (late twenties, early thirties), more and more, use their birthdays not as an excuse to go out and party, but instead to reflect on how far (or not far) they've gone in life up to this point. People seem to be less in favor of enjoying the current moment, and more in favor...
+                    </div>
+                    <div class="continue-link">
+                      <a href="/2010/05/22/make-yourself-uncomfortable.html">Continue reading "Make Yourself Uncomfortable" &rarr; </a>
+                    </div>
+                </div>
+                <hr>
+              
+                <div class="post-preview">
                     <a href="/2010/05/21/are-you-an-entrepreneur.html">
                         <h2 class="post-title">
                             Are You An Entrepreneur?
@@ -372,22 +388,6 @@
                 </div>
                 <hr>
               
-                <div class="post-preview">
-                    <a href="/2010/05/12/markets-value-scarcity.html">
-                        <h2 class="post-title">
-                            Markets Value Scarcity
-                        </h2>
-                    </a>
-                    <p class="post-meta">May 12, 2010</p>
-                    <div class="content">
-                      That goes for all markets. The stock market, the labor market, the job market, and the market for anything else you can think of. That means it's never going to be as easy as you think.There's lot of books about how to find a job, how to invest in stocks and make money, how to get a book published, and so on. All of this advice might be very prudent, but you can never expect...
-                    </div>
-                    <div class="continue-link">
-                      <a href="/2010/05/12/markets-value-scarcity.html">Continue reading "Markets Value Scarcity" &rarr; </a>
-                    </div>
-                </div>
-                <hr>
-              
 
               <!-- Pager -->
                 <ul class="pager">
@@ -442,6 +442,36 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["TeX"] }
+			});
+		</script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+
+        var content = $(".post-content");
+        var math = MathJax.Hub.getAllJax("content")[0];
+        // queue up the mathjax formatting of the page, then trigger show of content
+        // once the formatting has been completed.
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+
+
+      }());
+    </script>
 
 
     <script>
