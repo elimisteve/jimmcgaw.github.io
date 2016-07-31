@@ -8,16 +8,45 @@ entire world at large, has an ever-burgeoning problem with volumes of data. As a
 of it than ever before, in almost every domain and every industry. There's far more data than there are people
 who are capable of making sense of it. If you want to enter a technology field, and math doesn't scare you,
 consider data science.
-
-I've been focusing my efforts on learning 
+<br><br>
+I've been focusing my efforts on learning
 how data science will help in the field of genomics. Medicine is likely to become more personalized over the
 next century, and treatments, preventative or reactive, are going to be increasingly based on what's in an
 individual's genome. Genomic information doesn't just tell you which diseases you're at risk for, but also how
 effective any given treatment might be in the face of a particular diagnosis.
-
+<br><br>
 I spent a lot of time a few years ago intensely studying the domain of machine learning and its variety of
-algorithms. This required me to go back and re-learn statistics, calculus, and learn linear algebra (which is awesome).
+algorithms. This required me to go back and re-learn statistics and calculus, and learn linear algebra (which is awesome).
 What I lacked during this time in my life was a problem that I was interested in tackling. Studying machine learning
 without a goal in mind is a little like studying website programming without any idea of what kind of website you
-need or want to build. It's arguably a useful skill to have knowledge of, but when you're studying, it can feel
+need or want to build. It's arguably a useful skill to have knowledge of, but while you're studying it can all feel
 a little abstract.
+<br><br>
+Bioinformatics is the academic field that exists at the slowly expanding intersection of biology and computer science.
+Much of it is algorithms on strings, since the concern has largely to do with sequences of nucleotides. For example,
+you might be looking for [single nucleotide polymorphisms](https://en.wikipedia.org/wiki/Single-nucleotide_polymorphism)
+in a particular genome compared against several others, and seeing how that single variance might correlate with
+the presence of a given disease in an individual. (The BRC1 and BRC2 genes are pertinent to
+[breast cancer](http://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet#q1), for example.)
+<br><br>
+This isn't just a data problem; it's actually a <em>big data</em> problem. This was a buzzword in Silicon Valley
+the first time I visited back in early 2012. Entrepreneurs were tossing this into their venture capital presentations
+to help increase the odds of getting a check. What the hell is big data? Simply put: it's when you have so much
+data that it won't fit on a single computer, but you still need to analyze all of the data in aggregate, as if it
+were all on a single machine.
+<br><br>
+This matters in the field of genomics because a single human genome is 3.2 <em>billion</em> base pairs long. That's
+3.2 billion A's, C's, G's, and T's. If each character of this alphabet takes up a single byte on a computer's hard drive,
+then after only one or two thousand individual genomes, you're pushing the limit of available storage space on
+your average computer.
+<br><br>
+And this completely ignores that fact that if you only had 2 genomes to compare against each other, going through both
+of them letter by letter, stepping over each nucleotide one at a time, looking for differences between the 2 of them,
+would take a <em>very, very</em> long time. It would also be, computationally speaking, extremely expensive. And that's
+just for 2 of them.
+<br><br>
+There are tools in the ecosystem that help, both in the form of bioinformatic algorithms (which are concerned with
+making genome comparisons computationally efficient) and big data analytics tools, like Hadoop and Spark (which are
+concerned with analyzing datasets that span multiple computers.) The latter is still nascent, and growing at
+an extremely fast pace. There's decades of work left to be done making sense of the data that we've accumulated
+thus far.
